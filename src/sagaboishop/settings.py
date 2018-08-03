@@ -58,6 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+LOGOUT_REDIRECT_URL = '/login'
 ROOT_URLCONF = 'sagaboishop.urls'
 
 TEMPLATES = [

@@ -39,7 +39,7 @@ class Order(models.Model):
         self.total = formatted_total
         # print(type(self.total))
         self.save()
-        return new_total
+        return formatted_total
 
 
 def pre_save_create_order_id(sender, instance, *args, **kwargs):
