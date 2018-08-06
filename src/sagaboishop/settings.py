@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #custom applications
     'accounts',
+    'addresses',
     'billing',
     'carts',
     'orders',
