@@ -1,0 +1,44 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "PRE ORDER SAGABOI'S LIMITED EDITION MEN'S STYLE BOOK",
+        "slug": "magazine",
+        "description": "A limited edition men\u2019s fashion hardback publication that is discerningly diverse \u2013 a compilation of stunning imagery and editorials interweaved with intimate interviews and features that channel or challenge the now.\r\n\r\nIssue one is a brief in men\u2019s fashion inspired by the idiom COME THROUGH, a delve into major items making its way through the zeitgeist that are worthy of adulation.\r\n\r\nEditorial features include, Black Panther-Inspired Cover Editorial, Top Black Male Models Listing, Arab-Inspired Men\u2019s Fashion Editorial, Provocative Pieces from London Central Saint Martin Graduates.\r\n\r\nThe book features four (4) covers.",
+        "price": "39.99",
+        "image": "products/1510104579/1510104579.jpg",
+        "featured": true,
+        "active": true,
+        "timestamp": "2018-07-09T16:27:02.344Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Human Hat",
+        "slug": "human-hat",
+        "description": "Does being Human make us a Human being?\r\n\r\nOur premier offering challenges the notion and provokes the status quo.",
+        "price": "25.99",
+        "image": "products/2766805176/2766805176.jpeg",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-07-09T16:27:02.344Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "POI T-Shirt",
+        "slug": "poi-t-shirt",
+        "description": "Sport your origin.",
+        "price": "39.99",
+        "image": "",
+        "featured": false,
+        "active": true,
+        "timestamp": "2018-07-09T16:27:02.344Z"
+    }
+}
+]
