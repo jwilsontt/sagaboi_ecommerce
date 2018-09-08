@@ -20,8 +20,8 @@ class UserAdmin(BaseUserAdmin):
      list_display = ('email', 'admin')
      list_filter = ('admin', 'staff', 'active')
      fieldsets = (
-         (None, {'fields': ('email', 'password')}),
-         ('Personal info', {'fields': ()}),
+         (None, {'fields': ('full_name','email', 'password')}),
+         # ('Full name', {'fields': ()}),
          ('Permissions', {'fields': ('admin', 'staff', 'active',)}),
      )
      # add_fieldsets is not a standard ModelAdmin attribute. UserAdmin
@@ -45,7 +45,7 @@ admin.site.unregister(Group)
 
 
 class GuestEmailAdmin(admin.ModelAdmin):
-    search_fields = ['email']
+    search_fields = ['full_name','email']
     class Meta:
         model = GuestEmail
 
